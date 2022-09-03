@@ -1,5 +1,26 @@
+/* --BASE STYLINGS--  */
+
+body {
+    background-image:url("pexels-janko-ferlic-590493.jpg") ;
+    background-size: cover;
+    text-align: center;
+    /* padding: 15% 0 0 0; */
+    margin: 10% 0 0 0;
+}
+
+/* --INDEX.EJS STYLINGS--  */
+div{
+    height: 200px;
+    background: #E0D3Af;
+    margin: 0 40%;
+    padding: 3% 0 7% 0;
+    border-radius: 20px;
+    border: solid 5px maroon;
+}
 h1{
-    color: red;
+    color: black;
+    margin-bottom: 10%;
+    margin-top: 0;
 }
 .completed{
     text-decoration: line-through;
@@ -7,4 +28,66 @@ h1{
 }
 .not{
     text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #E0D3Af;
+    font-size: 110%;
+    background: maroon;
+    padding: 2%;
+    border-radius: 10px ;
+}
+.loginButton:hover {background: #5a0000;}
+.signupButton:hover {background: #5a0000;}
+
+/* --LOGIN.EJS STYLINGS--  */
+
+/* form {
+    background: #E0D3Af;
+    margin: 0 40%;
+    padding: 6% 0 7% 0;
+    border-radius: 20px;
+    border: solid 5px maroon;
+    padding: 10% 0;
+} */
+input{
+    margin: 5% 0;
+}
+.submitButton {
+    color:#E0D3Af;
+    background: maroon;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 2%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submitButton:hover {background: #5a0000;}
+
+/* --SIGNUP.EJS STYLINGS--  */
+.submitSignupButton {
+    color:#E0D3Af;
+    background: maroon;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    padding: 2%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* --ERROR PROMPTS-- */
+.alert {
+    height: auto;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: flex;
+    flex-wrap: wrap;
 }
